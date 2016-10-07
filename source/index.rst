@@ -98,6 +98,65 @@ To put some filter on the graph we have some option in the filter section, which
 .. image:: /images/filter.png
 
 
+
+How to create a table
+=====================
+
+By clicking on **Add Table** button, you can have the table.
+
+.. image:: /images/createTable01.png
+
+Now, click on **Edit Title** button 
+
+.. image:: /images/createTable02.png
+
+Here you can edit the table:
+
+* Title: Edit the table name
+
+* Callback on cell click: Popup will display on click of particular cell.
+
+* OrderBy: you can arrange the table data by setting its index value, and index starts with 0.
+
+* Type: **DESC** and **ASC**. You can arrange data on ascending or descending basis.
+
+* Widget width: you can edit table width to 25%, 50%, 75% or 100%.
+
+* Render Type: 2 types of render type:
+
+	* Server Side: We request to the server for data.
+
+	* Client Side: All of the data is fetched in one go.
+
+* Change table: Bydefault it will show selected table, but you can select any other table from drop down.
+
+* Default Filter applied on Data Table: Whatever default filter you want to apply in your table you can put here.
+
+* Edit Type: There are 2 types available to edit the table data:
+
+	* Inline: You can edit by clicking on a particular cell.
+
+	* Form: In From Edit Type, it will open a popup to edit the table.
+
+* Fixed Left Columns: If your table is wide enogh that you have to scroll it to access the table and you want some particular colunm to visible while scrolling. fix any number of left colunm of the table to the screen.
+
+* Fixed Right Columns: fix any number of right colunm of the table to the screen.
+
+* Table Editable: By setting yes/no you can make your table editable. You can find editable table in PostgreSQL.
+
+* Enable Audit Log: It will record all the activity log of the table as what is updated, who changed it and at what time.  
+
+* Show Audit Log: If you will enable this button then it will show the audit log.
+
+* Column Info: If you will click on **info** icon then it will show all the information about colunm throgh charts.
+
+* Configure Actions: In this section we can define buttons as we wanted in our table, bydefault we will have excel and CSV buttons. The button could be visible inline and dropdown, and could be of any type - Default, primary, success etc, and we can have any number of buttons.
+
+Action title, we can write button name
+Callback function on Action, we can write function to perform some action.
+
+
+
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
