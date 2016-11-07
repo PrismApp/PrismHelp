@@ -15,6 +15,9 @@ Prism provides you a platform where you can easily create and modify graphs by a
    :caption: User Documentation
 
    gettingstarted
+   filter
+   createtable
+   summary
    
    
 
