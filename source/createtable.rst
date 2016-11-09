@@ -75,7 +75,7 @@ Callback function on Action, we can write function to perform some action.
 
 * Summary Type: If you want some summary on the column you can select one from the drop down: None, SUM, COUNT, Distinct, AVG
 
-* Render Function: [{"id":"1","text":"HR"},{"id":"2","text":"IT"}]
+* Render Function: 
 
 * Invisible: If you will click yes for this then the column will not be visible in the table but the column will be searchable.
 
