@@ -105,7 +105,9 @@ Filter is a process that removes some unwanted components from the data. To put 
 
 
 
-* Show Type: It will show search type in the filter screen
+* Show Type: If Show Type is on then it will show search type in the filter screen
+
+  .. image:: /images/filter14.png
 
   .. image:: /images/filter15.png
 
