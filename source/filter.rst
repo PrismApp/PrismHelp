@@ -40,9 +40,11 @@ Filter is a process that removes some unwanted components from the data. To put 
 
   4. Number: If we select Number Type, then for filter we can only use number values.
 
-  5. Look Up: If we will select Look Up Type then we can get your data on the basis of some condition i.e we can use query to get the data.
+  5. Look Up: If we will select Look Up Type then we can get your data on the basis of some condition i.e we can use query to get the data. We can write query to filter data in Look Up Query field.
 
-  6. Drop Down: If we will select Drop down Type then we can have values in drop down for filter.
+  6. Drop Down: If we will select Drop down Type then we can have values in drop down for filter, we can write query in Look Up Query field to get data in drop down 
+
+   .. image:: /images/filterdropdown.png  
 
 * Default Value: you can put some default value for filter
 
@@ -56,19 +58,56 @@ Filter is a process that removes some unwanted components from the data. To put 
 
 * Look Up Query: You can filter data based on some condition/query. Specify the table, query, or list of values that provides the values for the lookup field.
 
-  like **select username,'' from users where lower(username) like '%<Q>%'**
+  like **select plant,plantname from e2e_ag_po_profile where lower(plant) like '%<Q>%' or lower(plantname) like '%<Q>%'**
 
-* Invisible: invisible -> off that means filter would be visible.
+  .. image:: /images/filter07.png
 
-* Mandatory: you can add some mandatory field for filter the data.
+  Save and view the profile
 
-* Add: we can add another field for filter.
+  .. image:: /images/filter08.png
+
+* Invisible: invisible -> off, that means filter would be visible. If we will set invisible -> on, the filter will be invisible but applicable to the table.
+
+* Mandatory: you can set a mandatory field for filter the data i.e. if mandatory is on then it will not show any data without entering any data to that particular field
+
+  .. image:: /images/filtermandatory01.png
+
+  .. image:: /images/filtermandatory02.png
+
+* Add: we can add another field for filter
+
+  Click on + button to add another filter
+
+  .. image:: /images/filter09.png
+
+  And you can remove any unwanted filter by clicking on x button.
+
 
 * Select Type: select type could be single or multiple.
 
-* Search Type: Search type could be In, Not In, Like and Not Like.
+  If we have selected Single then we can filter data only on one value, but if we have selected multiple Select Type then we will be able to filter on multiple values
 
-* Show Type: It will show search type in the filter screen.
+  .. image:: /images/filter10.png
+
+* Search Type: Search type could be In, Not In, Like and Not Like
+
+  1. In: If Search Type is In then it will show all the data of selected field
+
+    .. image:: /images/filter08.png
+
+  2. Not In: It will show all the data except field selected
+
+    .. image:: /images/filter11.png
+
+  3. Like: Like is used to filter for a specified pattern in a column
+
+  4. Not Like: Not Like is used to filter data except some specified pattern.
+
+
+
+* Show Type: It will show search type in the filter screen
+
+  .. image:: /images/filter15.png
 
 
 
