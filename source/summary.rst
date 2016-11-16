@@ -54,7 +54,7 @@ Edit properties:
 	%
 
   .. image:: /images/summaryfillgaugesuffix.png
-  
+
 
 11. Filter:N From
 
@@ -257,6 +257,8 @@ Edit properties:
 22. Value Type
 
 *****
+
+
 Summary Circle
 ^^^^^^^^^^^^^^
 
