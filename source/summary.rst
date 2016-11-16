@@ -16,28 +16,45 @@ A brief statement or account of the main points. We can add summary to the table
   .. image:: /images/summary02.png
 
 
+Summary Fillgauge
+^^^^^^^^^^^^^^^^^
+
+  .. image:: /images/summary02.png
+
 Edit properties:
-^^^^^^^^^^^^^^^^
 
-1. Calculated Formula
+1. Calculated Formula: Apllied only when aggregate is Calculated field ex:value1/(Value1-Value2)
 
-2. Width
+2. Width: We can set width of the chart
 
-3. Height
+3. Height: We can set height of the chart
 
-4. Measure
+4. Measure: In Measure we have all the fields available in the table and we can select any one from the drop down for which we want the summary.
 
-5. Aggregate
+5. Aggregate: We hve aggregate function like Sum, Count, AVG, Calculated Field, MIN, MAX, MEDIAN, DISTINCT and RATIO to get measure.
 
-6. Dimension description
+6. Dimension description: Select field to display name of dimension in tooltip
 
-7. Number Format
+7. Number Format: Number Format is, in which format we want to display our number like .0F/,f
 
-8. Date Format
+	,f
 
-9. Prefix
+  .. image:: /images/summaryfillgaugeNF.png
 
-10. Suffix
+8. Date Format: Format of date in data Ex: %m/%d/%Y (07/23/2016), %m/%d/%y (07/23/16), %Y-%m-%d (2016-07-23), %Y-%m (2016-07), Jan-16 (%b-%y)
+
+9. Prefix: We can add some prefix 
+
+	$
+
+  .. image:: /images/summaryfillgaugedoller.png
+
+10. Suffix:
+
+	%
+
+  .. image:: /images/summaryfillgaugesuffix.png
+  
 
 11. Filter:N From
 
@@ -116,3 +133,179 @@ Edit properties:
 48. Wave Animate
 
 49. Value Type
+
+*****
+
+Summary Ibox
+^^^^^^^^^^^^
+
+  .. image:: /images/summaryibox.png
+
+Edit properties:
+
+1. Calculated Formula: Apllied only when aggregate is Calculated field ex:value1/(Value1-Value2)
+
+2. Width: We can set the width of the chart
+
+3. Height: We can set the height of the chart
+
+4. Measure: In Measure we have all the fields available in the table and we can select any one from the drop down for which we want the summary.
+
+5. Aggregate: We hve aggregate function like Sum, Count, AVG, Calculated Field, MIN, MAX, MEDIAN, DISTINCT and RATIO to get measure.
+
+6. Dimension description: Select field to display name of dimension in tooltip
+
+7. Number Format: Number Format is, in which format we want to display our number like .0F/,f
+
+8. Date Format: Format of date in data Ex: %m/%d/%Y (07/23/2016), %m/%d/%y (07/23/16), %Y-%m-%d (2016-07-23), %Y-%m (2016-07), Jan-16 (%b-%y)
+
+9. Prefix: To add some prefix like '$'
+
+10. Suffix: To add some suffix like '%'
+
+11. Filter:N From
+
+12. Filter-N: Default N- value
+
+13. Field Name
+
+14. Divider
+
+15. Count
+
+16. Enable Click
+
+17. Filter By
+
+18. Detail
+
+19. Field Type
+
+20. Min Value
+
+21. Max Value
+
+22. Process Bar Color
+
+23. Value Type
+
+*****
+
+Summary Message
+^^^^^^^^^^^^^^^
+
+  .. image:: /images/summarymessage.png
+
+Edit properties:
+
+1. Calculated Formula: Apllied only when aggregate is Calculated field ex:value1/(Value1-Value2)
+
+2. Width: Width of the chart
+
+3. Height: Height of the chart
+
+4. Measure: In Measure we have all the fields available in the table and we can select any one from the drop down for which we want the summary.
+
+5. Aggregate: We hve aggregate function like Sum, Count, AVG, Calculated Field, MIN, MAX, MEDIAN, DISTINCT and RATIO to get measure.
+
+6. Dimension description: Select field to display name of dimension in tooltip
+
+  .. image:: /images/summarymessage06.png
+
+7. Number Format: Number Format is, in which format we want to display our number like 
+
+.0F
+
+  .. image:: /images/summarymessage070F.png
+
+,f
+
+  .. image:: /images/summarymessage07f.png
+
+8. Date Format: Format of date in data Ex: %m/%d/%Y (07/23/2016), %m/%d/%y (07/23/16), %Y-%m-%d (2016-07-23), %Y-%m (2016-07), Jan-16 (%b-%y)
+
+9. Prefix: To add some prefix like '$'
+
+  .. image:: /images/summarymessage09.png
+
+10. Suffix: To add some suffix like '%'
+
+  .. image:: /images/summarymessage10.png
+
+11. Filter:N From
+
+12. Filter-N: Default N- value
+
+13. Field Name
+
+14. Divider
+
+15. Count
+
+16. Filter By
+
+17. Enable Click
+
+18. Detail
+
+19. Field Type: Specify field type (Number/Date/String)
+
+20. Widget Color: We can give any color to widget
+
+21. Widget Icon: We can add any icon to the summary
+
+22. Value Type
+
+*****
+Summary Circle
+^^^^^^^^^^^^^^
+
+  .. image:: /images/summarycircle.png
+
+Edit properties:
+
+1. Calculated Formula: Apllied only when aggregate is Calculated field ex:value1/(Value1-Value2)
+
+2. Width: We can set the width of the chart
+
+3. Height: We can set the height of the chart
+
+4. Measure: In Measure we have all the fields available in the table and we can select any one from the drop down for which we want the summary.
+
+5. Aggregate: We hve aggregate function like Sum, Count, AVG, Calculated Field, MIN, MAX, MEDIAN, DISTINCT and RATIO to get measure.
+
+6. Dimension description: Select field to display name of dimension in tooltip
+
+7. Number Format: Number Format is, in which format we want to display our number like .0F/,f
+
+8. Date Format: Format of date in data Ex: %m/%d/%Y (07/23/2016), %m/%d/%y (07/23/16), %Y-%m-%d (2016-07-23), %Y-%m (2016-07), Jan-16 (%b-%y)
+
+9. Prefix: To add some prefix like '$'
+
+10. Suffix: To add some suffix like '%'
+
+11. Filter:N From
+
+12. Filter-N: Default N- value
+
+13. Field Name
+
+14. Divider
+
+15. Count
+
+16. Enable Click
+
+17. Filter By
+
+18. Detail
+
+19. Field Type
+
+20. Font Size
+
+21. Widget Color
+
+22. Widget Icon
+
+23. Value Type

@@ -104,7 +104,6 @@ Filter is a process that removes some unwanted components from the data. To put 
   4. Not Like: Not Like is used to filter data except some specified pattern.
 
 
-
 * Show Type: If Show Type is on then it will show search type in the filter screen
 
   .. image:: /images/filter14.png
