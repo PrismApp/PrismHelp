@@ -72,9 +72,9 @@ Edit properties:
 
 18. Detail
 
-19. Desc Color
+19. Desc Color: We can change the color of description
 
-20. Field Type
+20. Field Type: Specify field type (Number/Date/String)
 
 21. Min Value
 
@@ -82,17 +82,17 @@ Edit properties:
 
 23. Desc Size
 
-24. Circle Fill Gap
+24. Circle Fill Gap: 
 
-25. Circle Thick Ness
+25. Circle Thick Ness: We can edit circle's thickness
 
-26. Circle Color
+26. Circle Color: We can change the circle color
 
-27. Wave Risetime
+27. Wave Risetime: We can increase and decrease the wave risetime
 
-28. Wave Count
+28. Wave Count: We can set the number of waves 
 
-29. Wave Height
+29. Wave Height: We can increase and decrease the wave height
 
 30. Widget Color
 
@@ -108,15 +108,27 @@ Edit properties:
 
 36. Wave Offset
 
-37. Wave Color
+37. Wave Color: We can change the wave color
 
-38. Text Vert Position
+  .. image:: /images/summaryfillgaugewavecolor.png
+
+
+38. Text Vert Position: We can set text's vertical position
+
+  .. image:: /images/summaryfillgaugeTVP.png
+
 
 39. Text Wave Color
 
-40. Text Color
+40. Text Color: We can change the text color
+
+  .. image:: /images/summaryfillgaugetextcolor.png
+
 
 41. Text Size
+
+  .. image:: /images/summaryfillgaugetextsize.png
+  
 
 42. Detail Vert Position
 
