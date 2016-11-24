@@ -23,7 +23,9 @@ Summary Fillgauge
 
 Edit properties:
 
-1. Calculated Formula: Apllied only when aggregate is Calculated field ex:value1/(Value1-Value2)
+1. Calculated Formula: Apllied only when aggregate is Calculated field ex:value1/(Value1-Value2) like
+
+([pocount]/([pocount]+[netpr]))*100
 
 2. Width: We can set width of the chart
 
@@ -35,7 +37,7 @@ Edit properties:
 
 6. Dimension description: Select field to display name of dimension in tooltip
 
-7. Number Format: Number Format is, in which format we want to display our number like .0F/,f
+7. Number Format: Number Format is, in which format we want to display the number like .0F/,f
 
 	,f
 
@@ -43,34 +45,38 @@ Edit properties:
 
 8. Date Format: Format of date in data Ex: %m/%d/%Y (07/23/2016), %m/%d/%y (07/23/16), %Y-%m-%d (2016-07-23), %Y-%m (2016-07), Jan-16 (%b-%y)
 
-9. Prefix: We can add some prefix 
+9. Prefix: We can add some prefix like
 
 	$
 
   .. image:: /images/summaryfillgaugedoller.png
 
-10. Suffix:
+10. Suffix: We can add some suffix like
 
 	%
 
   .. image:: /images/summaryfillgaugesuffix.png
 
 
-11. Filter:N From
+11. Filter:N From, We have two options Top and Bottom. If we will select Top it will show 20 from the top of table and if we will select Bottom it will show 20 from the Bottom of table
 
-12. Filter-N: Default N- value
+12. Filter-N: Default N- value: Here we have to pass some numeric value, It will return the number of rows whatever number we have passed.
 
-13. Field Name
+13. Field Name: Field Name is mandatory field, this is where we need to select any field for which we want the summary.
 
-14. Divider
+14. Divider: 
 
 15. Count
 
-16. Enable Click
+16. Enable Click: If we will make Enable Click Yes then the chart will be clickable and the data will reflect according to click.
 
-17. Filter By
+17. Filter By: We can specify any field by which we want to filter the data.
+A10 
 
-18. Detail
+18. Detail: text on waves
+
+  .. image:: /images/summaryfillgaugedetail.png
+
 
 19. Desc Color: We can change the color of description
 
@@ -82,17 +88,32 @@ Edit properties:
 
 23. Desc Size
 
-24. Circle Fill Gap: 
+24. Circle Fill Gap: 0.2 
+
+  .. image:: /images/summaryfillgaugecirclefillgap.png
+
 
 25. Circle Thick Ness: We can edit circle's thickness
 
+  .. image:: /images/summaryfillgaugecirclethikness.png
+
+
 26. Circle Color: We can change the circle color
+
+  .. image:: /images/summaryfillgaugecirclecolor.png
+
 
 27. Wave Risetime: We can increase and decrease the wave risetime
 
 28. Wave Count: We can set the number of waves 
 
+  .. image:: /images/summaryfillgaugewavecount.png
+
+
 29. Wave Height: We can increase and decrease the wave height
+
+  .. image:: /images/summaryfillgaugewaveheight.png
+
 
 30. Widget Color
 
@@ -102,7 +123,7 @@ Edit properties:
 
 33. Process Bar Color
 
-34. Wave Animate Time
+34. Wave Animate Time: We can increase and decrease the wave animate time
 
 35. Widget Icon
 
@@ -130,13 +151,22 @@ Edit properties:
   .. image:: /images/summaryfillgaugetextsize.png
   
 
-42. Detail Vert Position
+42. Detail Vert Position: We can change detail text verical position
+
+  .. image:: /images/summaryfillgaugeDVP.png
+
 
 43. detai wave color
 
-44. Detail Color
+44. Detail Color: We can change the color of detail text
 
-45. Detail Size
+  .. image:: /images/summaryfillgaugedetailcolor.png
+
+
+45. Detail Size: We can change the size of the detail text
+
+  .. image:: /images/summarydetailsize.png
+
 
 46. Desc Vert Position
 
@@ -144,7 +174,7 @@ Edit properties:
 
 48. Wave Animate
 
-49. Value Type
+49. Value Type: We have 3 types of value type percentage, value percentage and value
 
 *****
 
@@ -167,39 +197,74 @@ Edit properties:
 
 6. Dimension description: Select field to display name of dimension in tooltip
 
-7. Number Format: Number Format is, in which format we want to display our number like .0F/,f
+  .. image:: /images/summaryiboxDD.png
+
+
+7. Number Format: Number Format is, in which format we want to display our number like ,f
+
+  .. image:: /images/summaryiboxNFf.png
+
+  .0F
+
+  .. image:: /images/summaryiboxNF0F.png
+
 
 8. Date Format: Format of date in data Ex: %m/%d/%Y (07/23/2016), %m/%d/%y (07/23/16), %Y-%m-%d (2016-07-23), %Y-%m (2016-07), Jan-16 (%b-%y)
 
 9. Prefix: To add some prefix like '$'
 
+  .. image:: /images/summaryiboxdolor.png
+
 10. Suffix: To add some suffix like '%'
 
-11. Filter:N From
+  .. image:: /images/summaryiboxpercentage.png
 
-12. Filter-N: Default N- value
 
-13. Field Name
+11. Filter:N From We have two options Top and Bottom. If we will select Top it will show 20 from the top of table and if we will select Bottom it will show 20 from the Bottom of table
+
+12. Filter-N: Default N- value: Here we have to pass some numeric value, It will return the number of rows whatever number we have passed.
+
+13. Field Name: It is a mandatory field, this is where we need to select any field for which we want the summary
 
 14. Divider
 
 15. Count
 
-16. Enable Click
+16. Enable Click: If we will make Enable click yes then we are able to click and able to see some specific data
+
+  .. image:: /images/summaryiboxEC.png
+
 
 17. Filter By
 
-18. Detail
+18. Detail: Detail is the text on chart, which describe the chart summary
 
-19. Field Type
+19. Field Type: We can have 3 types of fields String, Number and Date
 
 20. Min Value
 
 21. Max Value
 
-22. Process Bar Color
+22. Process Bar Color: We can give any color to process bar
 
-23. Value Type
+  .. image:: /images/summaryiboxPBC.png
+
+
+23. Value Type: We have 3 types of value type percentage, value percentage and value
+
+  - percentage Type:
+
+  .. image:: /images/summaryiboxpercentage.png
+
+  
+  - value percentage Type:
+
+  .. image:: /images/summaryiboxvaluepercentage.png
+
+  
+  - value Type:
+
+  .. image:: /images/summaryiboxvalue.png
 
 *****
 
@@ -244,11 +309,11 @@ Edit properties:
 
   .. image:: /images/summarymessage10.png
 
-11. Filter:N From
+11. Filter:N From We have two options Top and Bottom. If we will select Top it will show 20 from the top of table and if we will select Bottom it will show 20 from the Bottom of table
 
-12. Filter-N: Default N- value
+12. Filter-N: Default N- value: Here we have to pass some numeric value, It will return the number of rows whatever number we have passed.
 
-13. Field Name
+13. Field Name: It is a mandatory field, this is where we need to select any field for which we want the summary
 
 14. Divider
 
@@ -256,17 +321,33 @@ Edit properties:
 
 16. Filter By
 
-17. Enable Click
+17. Enable Click: If we will make Enable click yes then we are able to click and able to see some specific data
 
-18. Detail
+  .. image:: /images/summarymessageenableclick.png
+
+18. Detail: Detail is the text on chart, which describe the chart summary
 
 19. Field Type: Specify field type (Number/Date/String)
 
 20. Widget Color: We can give any color to widget
 
+  .. image:: /images/summarymessageWC.png
+
 21. Widget Icon: We can add any icon to the summary
 
-22. Value Type
+22. Value Type: We have 3 types of value type percentage, value percentage and value
+
+  - percentage:
+
+  .. image:: /images/summarymessagepercentage.png
+
+  - value percentage:
+
+  .. image:: /images/summarymessageVP.png
+
+  - value:
+
+  .. image:: /images/summarymessagevalue.png
 
 *****
 
@@ -290,36 +371,74 @@ Edit properties:
 
 6. Dimension description: Select field to display name of dimension in tooltip
 
-7. Number Format: Number Format is, in which format we want to display our number like .0F/,f
+7. Number Format: Number Format is, in which format we want to display our number like ,f
+
+  .. image:: /images/summarycircleNFf.png
+
+
+  .0F
+
+  .. image:: /images/summarycircleNF0F.png
+
 
 8. Date Format: Format of date in data Ex: %m/%d/%Y (07/23/2016), %m/%d/%y (07/23/16), %Y-%m-%d (2016-07-23), %Y-%m (2016-07), Jan-16 (%b-%y)
 
 9. Prefix: To add some prefix like '$'
 
+  .. image:: /images/summarycircledolor.png
+
+
 10. Suffix: To add some suffix like '%'
 
-11. Filter:N From
+  .. image:: /images/summarycirclepercentage.png
 
-12. Filter-N: Default N- value
 
-13. Field Name
+11. Filter:N From, We have two options Top and Bottom. If we will select Top it will show 20 from the top of table and if we will select Bottom it will show 20 from the Bottom of table
+
+12. Filter-N: Default N- value: Here we have to pass some numeric value, It will return the number of rows whatever number we have passed.
+
+13. Field Name: It is a mandatory field, this is where we need to select any field for which we want the summary
 
 14. Divider
 
 15. Count
 
-16. Enable Click
+16. Enable Click: If we will make Enable click yes then we are able to click and able to see some specific data
+
+  .. image:: /images/summarycircleenableclick.png
+
 
 17. Filter By
 
 18. Detail
 
-19. Field Type
+19. Field Type: Specify field type (Number/Date/String)
 
-20. Font Size
+20. Font Size: We can change the font size of the text like we have selected 'Extra Large' font size-
 
-21. Widget Color
+  .. image:: /images/summarycirclefont.png
 
-22. Widget Icon
 
-23. Value Type
+21. Widget Color: We can change the widget color
+
+  .. image:: /images/summarycirclewidgetcolor.png
+
+
+22. Widget Icon: We can change the widget icon
+
+  .. image:: /images/summarycirclewidgeticon.png
+
+
+23. Value Type: We have 3 types of value type percentage, value percentage and value
+
+  - percentage:
+
+  .. image:: /images/summarycirclepercentage.png
+
+  - value percentage:
+
+  .. image:: /images/summarcircleVP.png
+
+  - value:
+
+  .. image:: /images/summarycirclevalue.png
