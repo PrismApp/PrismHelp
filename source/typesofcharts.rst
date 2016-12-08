@@ -144,37 +144,69 @@ A donut chart is essentially a Pie Chart with an area of the center cut out.
   
 
 Calculated Formula: Apllied only when aggregate is Calculated field ex:value1/(Value1-Value2)
+
 Chart Title	period:
+
 Width: Width of the chart
+
 Height: Height of the chart
+
 Tool Tip Key: Code And Description	
+
 Measure:
+
 Aggregate: Aggregate Function
+
 Convert to Absolute ?: Convert value of each group the absolute value before plotting
+
 Dimension description: Select field to display name of dimension in tooltip
+
 Measure Labels: format {"field1":"Display Name1","field2":"Display Name2"}
+
 Sort Order: DESC- Descending by
+
 Show Percentage: Show Percentage in pop up
+
 Number Format:	
+
 Prefix:
+
 Suffix:
+
 Color Type:	 	
+
 Color Codes: Ex: by - Category {"US01":"","US02":"Line","US03":"AVG"},
+
 Color Field:	 	
+
 X Axis Title:	 	
+
 Y Axis Title:	 	
+
 X Axis Label Orientation:	0	
+
 Y Axis Label Orientation:	0	
+
 Default selected value(s):	 	
+
 Link Actions: Linking Actions to Chart tooltip
+
 Filter Field:	 	
+
 Filter Value:	 	
+
 Top/Bottom -N Filter: Calculation Type	None	
+
 Filter:N From	Top	
+
 Filter-N: Default N- value	 	
+
 Top/Bottom -N Filter: N-Values	 	
+
 Filter By:	
+
 Dynamic Dimension:
+
 
 *****
 
@@ -185,44 +217,83 @@ Bar Chart
 
 
 Calculated Formula: Apllied only when aggregate is Calculated field ex:value1/(Value1-Value2)
+
 Chart Title	plant: 	
+
 Width: Width of the chart
+
 Height: Height of the chart
+
 Tool Tip Key: Code And Description	
+
 Measure:	
+
 Measures:	 	
+
 Aggregate	SUM	Aggregate Function
+
 Convert to Absolute ?	 	Convert value of each group the absolute value before plotting
+
 Dimension description	 	Select field to display name of dimension in tooltip
+
 Measure Labels	 	format {"field1":"Display Name1","field2":"Display Name2"}
+
 Sort Order	 	DESC- Descending by
+
 Show Totals	Yes	
+
 Show Percentage	 	Show Percentage in pop up
+
 Number Format	 	
+
 Prefix	 	
+
 Bar Width	 	Width of the Bar
+
 Suffix	 	
+
 Color Type	 	
+
 Color Codes	 	Ex: by - Category {"US01":"","US02":"Line","US03":"AVG"},
+
 Color Field	 	
+
 X Axis Title	 	
+
 Y Axis Title	 	
+
 X Axis Label Orientation	0	
+
 Y Axis Label Orientation	0	
+
 Top Margin	20	Space between top of the chart and top of the chart container (Pixels)
+
 Right Margin	10	Space between right of the chart and right margin of the chart container (Pixels)
+
 Bottom Margin	30	Space between X axis and bottom of the chart container (Pixels)
+
 Left Margin	40	Space between Y axis and left margin of the chart container (Pixels)
+
 Default selected value(s)	 	
+
 Link Actions	 	Linking Actions to Chart tooltip
+
 Filter Field	 	
+
 Filter Value	 	
+
 Top/Bottom -N Filter: Calculation Type	None	
+
 Filter:N From	Top	
+
 Filter-N: Default N- value	 	
+
 Top/Bottom -N Filter: N-Values	 	
+
 Filter By	 	
+
 Dynamic Dimension
+
 
 *****
 
@@ -233,44 +304,84 @@ Row Chart
 
 
 Calculated Formula	 	Apllied only when aggregate is Calculated field ex:value1/(Value1-Value2)
+
 Chart Title	plant	
+
 Width	auto	Width of the chart
+
 Height	auto	Height of the chart
+
 Chart Container Height	 	
+
 Measure	 	
+
 Aggregate	SUM	Aggregate Function
+
 Convert to Absolute ?	 	Convert value of each group the absolute value before plotting
+
 Dimension description	 	Select field to display name of dimension in tooltip
+
 Measure Labels	 	format {"field1":"Display Name1","field2":"Display Name2"}
+
 Sort Order	 	DESC- Descending by
+
 Show Totals	Yes	
+
 Show Percentage	 	Show Percentage in pop up
+
 Number Format	 	
+
 Prefix	 	
+
 Bar Width	 	Width of the Bar
+
 Suffix	 	
+
 Color Type	 	
+
 Color Codes	 	Ex: by - Category {"US01":"","US02":"Line","US03":"AVG"},
+
 Color Field	 	
+
 X Axis Title	 	
+
 Y Axis Title	 	
+
+
 X Axis Label Orientation	0	
+
 Y Axis Label Orientation	0	
+
 Hide X Axis	 	
+
 Hide Y Axis	 	
+
 Top Margin	20	Space between top of the chart and top of the chart container (Pixels)
+
 Right Margin	10	Space between right of the chart and right margin of the chart container (Pixels)
+
 Bottom Margin	30	Space between X axis and bottom of the chart container (Pixels)
+
 Left Margin	40	Space between Y axis and left margin of the chart container (Pixels)
+
 Default selected value(s)	 	
+
 Link Actions	 	Linking Actions to Chart tooltip
+
 Filter Field	 	
+
 Filter Value	 	
+
 Top/Bottom -N Filter: Calculation Type	None	
+
 Filter:N From	Top	
+
 Filter-N: Default N- value	 	
+
 Top/Bottom -N Filter: N-Values	 	
+
 Filter By	 	
+
 Dynamic Dimension
 
 *****
