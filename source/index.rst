@@ -18,6 +18,7 @@ Prism provides you a platform where you can easily create and modify graphs by a
    filter
    createtable
    summary
+   typesofcharts
    
    
 

@@ -9,6 +9,8 @@ Filter is a process that removes some unwanted components from the data. To put 
 
  Modal: By default Modal is selected, if modal is selected then filter is available by clicking on Filter button.
 
+  .. image:: /images/filter.png
+
  Inline: If Inline is selected then Filter will be available in the page itselt
 
  .. image:: /images/filter00.png 

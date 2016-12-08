@@ -27,6 +27,8 @@ Edit properties:
 
 ([pocount]/([pocount]+[netpr]))*100
 
+  .. image:: /images/summaryfillgaugeCF.png
+
 2. Width: We can set width of the chart
 
 3. Height: We can set height of the chart
@@ -58,123 +60,107 @@ Edit properties:
   .. image:: /images/summaryfillgaugesuffix.png
 
 
-11. Filter:N From, We have two options Top and Bottom. If we will select Top it will show 20 from the top of table and if we will select Bottom it will show 20 from the Bottom of table
+11. Field Name: Field Name is mandatory field, this is where we need to select any field for which we want the summary.
 
-12. Filter-N: Default N- value: Here we have to pass some numeric value, It will return the number of rows whatever number we have passed.
+12. Divider: Field value to get the percentage(number format should be %)
 
-13. Field Name: Field Name is mandatory field, this is where we need to select any field for which we want the summary.
+13. Enable Click: If we will make Enable Click Yes then the chart will be clickable and the data will reflect according to click.
 
-14. Divider: 
-
-15. Count
-
-16. Enable Click: If we will make Enable Click Yes then the chart will be clickable and the data will reflect according to click.
-
-17. Filter By: We can specify any field by which we want to filter the data.
+14. Filter By: We can specify any field by which we want to filter the data.
 A10 
 
-18. Detail: text on waves
+15. Detail: Text on waves
 
   .. image:: /images/summaryfillgaugedetail.png
 
 
-19. Desc Color: We can change the color of description
+16. Desc Color: We can change the color of description
 
-20. Field Type: Specify field type (Number/Date/String)
+17. Field Type: Specify field type (Number/Date/String)
 
-21. Min Value
+18. Min Value: We can set any minimum value
 
-22. Max Value
+19. Max Value: We can set any maximum value
 
-23. Desc Size
+20. Desc Size
 
-24. Circle Fill Gap: 0.2 
+21. Circle Fill Gap: We can increase and decrease the circle gap like 0.2 
 
   .. image:: /images/summaryfillgaugecirclefillgap.png
 
 
-25. Circle Thick Ness: We can edit circle's thickness
+22. Circle Thick Ness: We can edit circle's thickness
 
   .. image:: /images/summaryfillgaugecirclethikness.png
 
 
-26. Circle Color: We can change the circle color
+23. Circle Color: We can change the circle color
 
   .. image:: /images/summaryfillgaugecirclecolor.png
 
 
-27. Wave Risetime: We can increase and decrease the wave risetime
+24. Wave Risetime: We can increase and decrease the wave risetime
 
-28. Wave Count: We can set the number of waves 
+25. Wave Count: We can set the number of waves 
 
   .. image:: /images/summaryfillgaugewavecount.png
 
 
-29. Wave Height: We can increase and decrease the wave height
+26. Wave Height: We can increase and decrease the wave height
 
   .. image:: /images/summaryfillgaugewaveheight.png
 
 
-30. Widget Color
+27. Widget Color
 
-31. Wave Height Scaling
+28. Wave Height Scaling
 
-32. Wave Rise
+29. Wave Rise
 
-33. Process Bar Color
+30. Wave Animate Time: We can increase and decrease the wave animate time
 
-34. Wave Animate Time: We can increase and decrease the wave animate time
+31. Wave Offset
 
-35. Widget Icon
-
-36. Wave Offset
-
-37. Wave Color: We can change the wave color
+32. Wave Color: We can change the wave color
 
   .. image:: /images/summaryfillgaugewavecolor.png
 
 
-38. Text Vert Position: We can set text's vertical position
+33. Text Vert Position: We can set text's vertical position
 
   .. image:: /images/summaryfillgaugeTVP.png
 
 
-39. Text Wave Color
+34. Text Wave Color
 
-40. Text Color: We can change the text color
+35. Text Color: We can change the text color
 
   .. image:: /images/summaryfillgaugetextcolor.png
 
 
-41. Text Size
+36. Text Size
 
   .. image:: /images/summaryfillgaugetextsize.png
   
 
-42. Detail Vert Position: We can change detail text verical position
+37. Detail Vert Position: We can change detail text verical position
 
   .. image:: /images/summaryfillgaugeDVP.png
 
 
-43. detai wave color
-
-44. Detail Color: We can change the color of detail text
+38. Detail Color: We can change the color of detail text
 
   .. image:: /images/summaryfillgaugedetailcolor.png
 
 
-45. Detail Size: We can change the size of the detail text
+39. Detail Size: We can change the size of the detail text
 
   .. image:: /images/summarydetailsize.png
 
 
-46. Desc Vert Position
+40. Wave Animate
 
-47. Desciption Wave Color
-
-48. Wave Animate
-
-49. Value Type: We have 3 types of value type percentage, value percentage and value
+41. Value Type: We have 3 types of value type percentage, value percentage and value
 
 *****
 
@@ -235,15 +221,15 @@ Edit properties:
   .. image:: /images/summaryiboxEC.png
 
 
-17. Filter By
+17. Filter By: We can specify any field by which we want to filter the data.
 
 18. Detail: Detail is the text on chart, which describe the chart summary
 
 19. Field Type: We can have 3 types of fields String, Number and Date
 
-20. Min Value
+20. Min Value: We can set any minimum value
 
-21. Max Value
+21. Max Value: We can set any maximum value
 
 22. Process Bar Color: We can give any color to process bar
 
@@ -319,7 +305,7 @@ Edit properties:
 
 15. Count
 
-16. Filter By
+16. Filter By: We can specify any field by which we want to filter the data.
 
 17. Enable Click: If we will make Enable click yes then we are able to click and able to see some specific data
 
@@ -408,9 +394,11 @@ Edit properties:
   .. image:: /images/summarycircleenableclick.png
 
 
-17. Filter By
+17. Filter By: We can specify any field by which we want to filter the data.
 
-18. Detail
+18. Detail: Detail is detail about the summary. Text on the summary
+
+  .. image:: /images/summarycircledetail.png
 
 19. Field Type: Specify field type (Number/Date/String)
 
