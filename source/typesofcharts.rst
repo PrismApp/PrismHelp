@@ -55,17 +55,23 @@ Edit Properties:
 
 Calculated Formula: Apllied only when aggregate is Calculated field ex:value1/(Value1-Value2)
 
+  .. image:: /images/piechartCF.png
+
+add [pocount]/([pocount]+[netvalue]) calculated formula to the same chart
+
+  .. image:: /images/piechartCF01.png
+
 Chart Title: Title of the chart
 
 Width: Width of the chart
 
 Height: Height of the chart
 
-Tool Tip Key: We can define tooltip key in 3 ways: Code, Description, Code And Description. whether we want to display Code, Description, Code And Description in the tool tip key
+Tool Tip Key: We can define tooltip key in 3 ways: Code, Description, Code And Description. whether we want to display Code, Description or Code And Description in the tool tip key
 
-Measure: In Measure we have all the fields available in the table and we can select any one from the drop down for which we want the summary.
+Measure: In Measure we have all the fields available in the table and we can select any one from the drop down for which we want the chart.
 
-Aggregate: We hve aggregate function like Sum, Count, AVG, Calculated Field, MIN, MAX, MEDIAN, DISTINCT and RATIO to get measure
+Aggregate: We have aggregate function like Sum, Count, AVG, Calculated Field, MIN, MAX, MEDIAN, DISTINCT and RATIO to get measure
 
 Convert to Absolute ?: Convert value of each group the absolute value before plotting, we have 2 options Yes/No
 
@@ -145,51 +151,51 @@ A donut chart is essentially a Pie Chart with an area of the center cut out.
 
 Calculated Formula: Apllied only when aggregate is Calculated field ex:value1/(Value1-Value2)
 
-Chart Title	period:
+Chart Title: Title of the chart
 
 Width: Width of the chart
 
 Height: Height of the chart
 
-Tool Tip Key: Code And Description	
+Tool Tip Key: We can define tooltip key in 3 ways: Code, Description, Code And Description. whether we want to display Code, Description, Code And Description in the tool tip key
 
-Measure:
+Measure: In Measure we have all the fields available in the table and we can select any one from the drop down for which we want the chart.
 
-Aggregate: Aggregate Function
+Aggregate: We have aggregate function like Sum, Count, AVG, Calculated Field, MIN, MAX, MEDIAN, DISTINCT and RATIO to get measure
 
-Convert to Absolute ?: Convert value of each group the absolute value before plotting
+Convert to Absolute ?:  Convert value of each group the absolute value before plotting, we have 2 options Yes/No
 
 Dimension description: Select field to display name of dimension in tooltip
 
 Measure Labels: format {"field1":"Display Name1","field2":"Display Name2"}
 
-Sort Order: DESC- Descending by
+Sort Order: To sort the data we have few optiions: None(Data Source Order), Ascending, Alphabetic(A-Z), Alphabetic(Z-A) and Descending. By default None would be selected which has data source order
 
-Show Percentage: Show Percentage in pop up
+Show Percentage: Show Percentage in pop up, we have 2 options Yes/No wheter you want to show the percentage or not. Here we are showing data in percentage
 
-Number Format:	
+Number Format: Number Format is, in which format we want to display the number like .0F/,f
 
-Prefix:
+Prefix: We can add some prefix
 
-Suffix:
+Suffix: We can add some suffix
 
-Color Type:	 	
+Color Type: color typr could be of- By Category, Value Range, Single Color and Field. To set any Color type we need to set some color code
 
-Color Codes: Ex: by - Category {"US01":"","US02":"Line","US03":"AVG"},
+Color Codes: Here we can specify the color codes. Ex: by - Category {"US01":"","US02":"Line","US03":"AVG"},
 
-Color Field:	 	
+Color Field: We can set any color field from the drop down
 
-X Axis Title:	 	
+X Axis Title: We can add some title
 
-Y Axis Title:	 	
+Y Axis Title:	We can add some title	
 
 X Axis Label Orientation:	0	
 
 Y Axis Label Orientation:	0	
 
-Default selected value(s):	 	
+Default selected value(s): We can select some default selected value in the chart
 
-Link Actions: Linking Actions to Chart tooltip
+Link Actions: Linking Actions to Chart tooltip. we need to create action and that action we need to configure in pie chart and then it will be accessible in the Link Action field from where we can select Action
 
 Filter Field:	 	
 
@@ -197,15 +203,15 @@ Filter Value:
 
 Top/Bottom -N Filter: Calculation Type	None	
 
-Filter:N From	Top	
+Filter:N From,	We have two options Top and Bottom. If we will select Top it will show 20 from the top of table and if we will select Bottom it will show 20 from the Bottom of table
 
-Filter-N: Default N- value	 	
+Filter-N: Default N- value: Here we have to pass some numeric value, It will return the number of rows whatever number we have passed.	 	
 
 Top/Bottom -N Filter: N-Values	 	
 
-Filter By:	
+Filter By: We can specify any field by which we want to filter the data.
 
-Dynamic Dimension:
+Dynamic Dimension: We can add more than one dimention to the chart
 
 
 *****
@@ -218,7 +224,7 @@ Bar Chart
 
 Calculated Formula: Apllied only when aggregate is Calculated field ex:value1/(Value1-Value2)
 
-Chart Title	plant: 	
+Chart Title: Name on the chart 	
 
 Width: Width of the chart
 
@@ -226,57 +232,81 @@ Height: Height of the chart
 
 Tool Tip Key: Code And Description	
 
-Measure:	
+Measure: In Measure we have all the fields available in the table and we can select any one from the drop down for which we want the chart.
 
-Measures:	 	
+Measures:	We can have more than one measures for bar chart	
 
-Aggregate	SUM	Aggregate Function
+Aggregate: We hve aggregate function like Sum, Count, AVG, Calculated Field, MIN, MAX, MEDIAN, DISTINCT and RATIO to get measure
 
-Convert to Absolute ?	 	Convert value of each group the absolute value before plotting
+Convert to Absolute?:	Convert value of each group the absolute value before plotting, we have 2 options Yes/No
 
-Dimension description	 	Select field to display name of dimension in tooltip
+Dimension description: Select field to display name of dimension in tooltip
 
 Measure Labels	 	format {"field1":"Display Name1","field2":"Display Name2"}
 
-Sort Order	 	DESC- Descending by
+Sort Order: To sort the data we have few optiions: None(Data Source Order), Ascending, Alphabetic(A-Z), Alphabetic(Z-A) and Descending. By default None would be selected which has data source order
 
 Show Totals	Yes	
 
-Show Percentage	 	Show Percentage in pop up
+Show Percentage: Show Percentage in pop up, we have 2 options Yes/No wheter you want to show the percentage or not. Here we are showing data in percentage
 
-Number Format	 	
+Number Format: Number Format is, in which format we want to display the number 	 	
 
-Prefix	 	
+Prefix: We can add some prefix
 
-Bar Width	 	Width of the Bar
+Bar Width: We can increase or decrease the width of a bar
 
-Suffix	 	
+Suffix: : We can add some suffix	 	
 
-Color Type	 	
+Color Type: color typr could be of- By Category, Value Range, Single Color and Field. To set any Color type we need to set some color code	 	
 
 Color Codes	 	Ex: by - Category {"US01":"","US02":"Line","US03":"AVG"},
 
-Color Field	 	
+Color Field: We can set any color field from the drop down	
 
-X Axis Title	 	
+X Axis Title: We can add some title 	
 
-Y Axis Title	 	
+Y Axis Title: We can add some title	
 
-X Axis Label Orientation	0	
+X Axis Label Orientation: We can set the lables to 0 to 90 degrees
 
-Y Axis Label Orientation	0	
+  .. image:: /images/barchartXLO.png
 
-Top Margin	20	Space between top of the chart and top of the chart container (Pixels)
 
-Right Margin	10	Space between right of the chart and right margin of the chart container (Pixels)
+Y Axis Label Orientation: We can set the lables to 0 to 90 degrees
 
-Bottom Margin	30	Space between X axis and bottom of the chart container (Pixels)
+  .. image:: /images/barchartYLO.png
 
-Left Margin	40	Space between Y axis and left margin of the chart container (Pixels)
 
-Default selected value(s)	 	
+Top Margin: Space between top of the chart and top of the chart container (Pixels)
 
-Link Actions	 	Linking Actions to Chart tooltip
+  .. image:: /images/barchartTM.png
+
+
+Right Margin: Space between right of the chart and right margin of the chart container (Pixels)
+
+  .. image:: /images/barchartRM.png
+
+
+Bottom Margin: Space between X axis and bottom of the chart container (Pixels)
+
+  .. image:: /images/barchartBM.png
+
+
+Left Margin: Space between Y axis and left margin of the chart container (Pixels)
+
+  .. image:: /images/barchartLM.png
+
+
+Default selected value(s): We can set one or more default selected values
+
+  .. image:: /images/barchartDS.png
+
+
+Link Actions: Linking Actions to Chart tooltip, we need to create action and that action we need to configure in pie chart and then it will be accessible in the Link Action field from where we can select Action
+
+  .. image:: /images/barchartLA.png
+
 
 Filter Field	 	
 
@@ -284,15 +314,17 @@ Filter Value
 
 Top/Bottom -N Filter: Calculation Type	None	
 
-Filter:N From	Top	
+Filter:N From : We have two options Top and Bottom. If we will select Top it will show 20 from the top of table and if we will select Bottom it will show 20 from the Bottom of table
 
-Filter-N: Default N- value	 	
+Filter-N: Default N- value: Here we have to pass some numeric value, It will return the number of rows whatever number we have passed.	 	
 
 Top/Bottom -N Filter: N-Values	 	
 
-Filter By	 	
+Filter By: We can specify any field by which we want to filter the data.	 	
 
-Dynamic Dimension
+Dynamic Dimension: We can add more than one dimention to get the chart
+
+  .. image:: /images/barchartDD.png
 
 
 *****
