@@ -256,7 +256,7 @@ Prefix: We can add some prefix
 
 Bar Width: We can increase or decrease the width of a bar
 
-Suffix: : We can add some suffix	 	
+Suffix: We can add some suffix	 	
 
 Color Type: color typr could be of- By Category, Value Range, Single Color and Field. To set any Color type we need to set some color code	 	
 
@@ -335,86 +335,103 @@ Row Chart
   .. image:: /images/rowchart.png
 
 
-Calculated Formula	 	Apllied only when aggregate is Calculated field ex:value1/(Value1-Value2)
+Calculated Formula: Apllied only when aggregate is Calculated field ex:value1/(Value1-Value2) like ([pocount]/([pocount]+[netpr]))*100
 
-Chart Title	plant	
-
-Width	auto	Width of the chart
-
-Height	auto	Height of the chart
-
-Chart Container Height	 	
-
-Measure	 	
-
-Aggregate	SUM	Aggregate Function
-
-Convert to Absolute ?	 	Convert value of each group the absolute value before plotting
-
-Dimension description	 	Select field to display name of dimension in tooltip
-
-Measure Labels	 	format {"field1":"Display Name1","field2":"Display Name2"}
-
-Sort Order	 	DESC- Descending by
-
-Show Totals	Yes	
-
-Show Percentage	 	Show Percentage in pop up
-
-Number Format	 	
-
-Prefix	 	
-
-Bar Width	 	Width of the Bar
-
-Suffix	 	
-
-Color Type	 	
-
-Color Codes	 	Ex: by - Category {"US01":"","US02":"Line","US03":"AVG"},
-
-Color Field	 	
-
-X Axis Title	 	
-
-Y Axis Title	 	
+  .. image:: /images/rowchartCF.png
 
 
-X Axis Label Orientation	0	
+Chart Title: Name on the chart	
 
-Y Axis Label Orientation	0	
+Width: Width of the chart
+
+Height: Height of the chart
+
+Chart Container Height: We can adjust the height of the chart container
+
+  .. image:: /images/rowchartCH.png
+
+
+Measure: In Measure we have all the fields available in the table and we can select any one from the drop down for which we want the chart.	
+
+Aggregate: We hve aggregate function like Sum, Count, AVG, Calculated Field, MIN, MAX, MEDIAN, DISTINCT and RATIO to get measure.
+
+Convert to Absolute?: Convert value of each group the absolute value before plotting
+
+Dimension description: Select field to display name of dimension in tooltip
+
+  .. image:: /images/rowchartDD.png
+
+
+Measure Labels: format {"field1":"Display Name1","field2":"Display Name2"}
+
+Sort Order: To sort the data we have few optiions: None(Data Source Order), Ascending, Alphabetic(A-Z), Alphabetic(Z-A) and Descending. By default None would be selected which has data source order like "Sort Order: Ascending"
+
+  .. image:: /images/rowchartSO.png
+
+
+Show Totals:
+
+Show Percentage: Show Percentage in pop up
+
+  .. image:: /images/rowchartSP.png
+
+
+Number Format: Number Format is, in which format we want to display the number with coma, decimals etc 	
+
+Prefix: We can add some prefix	 	
+
+Bar Width: We can increase or decrease the width of a bar
+
+Suffix: We can add some suffix	 	
+
+Color Type: color typr could be of- By Category, Value Range, Single Color and Field. To set any Color type we need to set some color code ex: color Type: Single color and color Code: orange
+
+  .. image:: /images/rowchartCT.png
+
+
+Color Codes: We can define color codes color type wise. Ex: by - Category {"US01":"","US02":"Line","US03":"AVG"},
+
+Color Field: We can set any color field from the drop down 	
+
+X Axis Title: We can add some title to X axis	 	
+
+Y Axis Title: We can add some title to Y axis
+
+X Axis Label Orientation: We can set the X axis lables to 0 to 90 degrees
+
+Y Axis Label Orientation: We can set the Y axis lables to 0 to 90 degrees
 
 Hide X Axis	 	
 
 Hide Y Axis	 	
 
-Top Margin	20	Space between top of the chart and top of the chart container (Pixels)
+Top Margin: Space between top of the chart and top of the chart container (Pixels)
 
-Right Margin	10	Space between right of the chart and right margin of the chart container (Pixels)
+Right Margin: Space between right of the chart and right margin of the chart container (Pixels)
 
-Bottom Margin	30	Space between X axis and bottom of the chart container (Pixels)
+Bottom Margin: Space between X axis and bottom of the chart container (Pixels)
 
-Left Margin	40	Space between Y axis and left margin of the chart container (Pixels)
+Left Margin: Space between Y axis and left margin of the chart container (Pixels)
 
-Default selected value(s)	 	
+Default selected value(s): We can set one or more default selected values	 	
 
-Link Actions	 	Linking Actions to Chart tooltip
+Link Actions: Linking Actions to Chart tooltip, we need to create action and that action we need to configure in pie chart and then it will be accessible in the Link Action field from where we can select Action
 
 Filter Field	 	
 
 Filter Value	 	
 
-Top/Bottom -N Filter: Calculation Type	None	
+Top/Bottom -N Filter: Calculation Type	
 
-Filter:N From	Top	
+Filter:N From : We have two options Top and Bottom. If we will select Top it will show 20 from the top of table and if we will select Bottom it will show 20 from the Bottom of table
 
-Filter-N: Default N- value	 	
+Filter-N: Default N- value: Here we have to pass some numeric value, It will return the number of rows whatever number we have passed.	 	
 
 Top/Bottom -N Filter: N-Values	 	
 
-Filter By	 	
+Filter By: We can specify any field by which we want to filter the data.	 	
 
-Dynamic Dimension
+Dynamic Dimension: We can add more than one dimention to get the chart
 
 *****
 
