@@ -438,6 +438,74 @@ Dynamic Dimension: We can add more than one dimention to get the chart
 Timeline Chart
 ^^^^^^^^^^^^^^
 
+Edit Properties:
+
+Calculated Formula: Apllied only when aggregate is Calculated field ex:value1/(Value1-Value2)
+
+Chart Title: Name on chart 
+
+Width: Width of the chart
+
+Height: Height of the chart
+
+Timeline Type: Days  
+
+Measure:
+   
+Aggregate: Aggregate Function
+
+Convert to Absolute ?: Convert value of each group the absolute value before plotting
+
+Dimension description: Select field to display name of dimension in tooltip
+
+Sort Order:
+
+Number Format: 
+
+Date Format: Format of date in data Ex: %m/%d/%Y (07/23/2016), %m/%d/%y (07/23/16), %Y-%m-%d (2016-07-23), %Y-%m (2016-07), Jan-16 (%b-%y)
+
+Prefix: Add some prefix
+
+Suffix: Add some suffix
+
+Color Type: 
+
+Color Codes: Ex: by - Category {"US01":"","US02":"Line","US03":"AVG"},
+
+Color Field: 
+
+X Axis Title: We can give some X axis title
+
+Y Axis Title: We can give some Y axis title
+
+X Axis Label Orientation:
+
+Y Axis Label Orientation:
+
+Top Margin: Space between top of the chart and top of the chart container (Pixels)
+
+Right Margin: Space between right of the chart and right margin of the chart container (Pixels)
+
+Bottom Margin: Space between X axis and bottom of the chart container (Pixels)
+
+Left Margin: Space between Y axis and left margin of the chart container (Pixels)
+
+Link Actions: Linking Actions to Chart tooltip
+
+Top/Bottom -N Filter: Calculation Type  None  
+Filter:N From Top 
+Filter-N: Default N- value    
+Top/Bottom -N Filter: N-Values    
+Filter By   
+Auto Play   
+Auto Play: Period Type    
+Auto Play: Period Length    
+Play Speed    
+Hide Chart  Choose  
+Hide Y Axis in Bar chart    
+Hide Y Axis in Timeline chart   
+Default Selected Date Range
+
 *****
 
 Line Chart
@@ -502,6 +570,61 @@ Hierarchie
 
 Range Slider
 ^^^^^^^^^^^^
+
+  .. image:: /images/rangeslider.png
+
+
+Calculated Formula: Apllied only when aggregate is Calculated field ex:value1/(Value1-Value2)
+ ([pocount]/([pocount]+[netvalue]))*100
+
+Chart Title: Name on the slider
+
+Width: Width of the chart
+
+Height: Height of the chart
+
+Measure:
+
+Aggregate: Aggregate Function
+
+Convert to Absolute ?: Convert value of each group the absolute value before plotting
+
+Dimension description: Select field to display name of dimension in tooltip
+
+Sort Order: 
+
+Number Format: 
+
+Prefix: Add some prefix
+
+Suffix: Add some suffix
+
+Filter From: default selection of slider range starts from,(it should be between 0 to 99)
+
+Filter To: default selection of slider range ends to,(it should be between 1 to 100)
+
+Color Type: 
+
+Color Codes: Ex: by - Category {"US01":"","US02":"Line","US03":"AVG"},
+
+X Axis Title: Add X axis title
+
+Y Axis Title: Add Y axis title
+
+X Axis Label Orientation: 
+
+Y Axis Label Orientation: 
+
+Default selected value(s): 
+
+Top/Bottom -N Filter: Calculation Type: 
+
+Filter:N From :
+
+Filter-N: Default N- value: 
+
+Top/Bottom -N Filter: N-Values: 
+
 
 *****
 
