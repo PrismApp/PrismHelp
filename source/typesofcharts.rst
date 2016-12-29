@@ -616,6 +616,97 @@ Filter By: We can specify any field by which we want to filter the data
 Grouped bar Chart
 ^^^^^^^^^^^^^^^^^
 
+It is basically a bar chart, In this we can have multiple measures, based on these measures the values will grouped one after the other.
+
+  .. image:: /images/groupedbarchart.png
+
+Calculated Formula: Apllied only when aggregate is Calculated field ex:value1/(Value1-Value2)
+
+Shows only highlighted bar data in tooltip: Shows only highlighted bar data in tooltip
+
+Chart Title: Name on the chart
+
+Width: Width of the chart
+
+Height: Height of the chart
+
+Tool Tip Key: We can define tooltip key in 3 ways: Code, Description, Code And Description. whether we want to display Code, Description or Code And Description in the tool tip key
+
+Measure: In Measure we have all the fields available in the table and we can select any one from the drop down for which we want the chart.
+
+Measures: We can have more than one measures for grouped bar chart
+
+
+Aggregate: We have aggregate function like Sum, Count, AVG, Calculated Field, MIN, MAX, MEDIAN, DISTINCT and RATIO to get measure
+
+Convert to Absolute ?: Convert value of each group the absolute value before plotting, we have 2 options Yes/No
+
+Dimension description: Select field to display name of dimension in tooltip
+
+Measure Labels: format {"field1":"Display Name1","field2":"Display Name2"}
+
+Sort Order: To sort the data we have few optiions: None(Data Source Order), Ascending, Alphabetic(A-Z), Alphabetic(Z-A) and Descending. By default None would be selected which has data source order
+
+Show Totals: You can set wether you want to show the total in bars or not
+
+Show Percentage: Show Percentage in pop up, we have 2 options Yes/No whether you want to show the percentage or not. Here we are showing data in percentage
+
+Number Format: Number Format is, in which format we want to display the number
+
+Prefix: We can add some prefix
+
+Bar Width: Width of the Bar
+
+Suffix: We can add some suffix
+
+Color Type: color typr could be of- By Category, Value Range, Single Color and Field. To set any Color type we need to set some color code
+
+Color Codes: Ex: by - Category {"US01":"","US02":"Line","US03":"AVG"},
+
+Color Field: We can set any color field from the drop down
+
+X Axis Title: We can add some title
+
+Y Axis Title: We can add some title
+
+X Axis Label Orientation: We can set the lables to 0 to 90 degrees
+
+Y Axis Label Orientation: We can set the lables to 0 to 90 degrees
+
+Top Margin: Space between top of the chart and top of the chart container (Pixels)
+
+Right Margin: Space between right of the chart and right margin of the chart container (Pixels)
+
+Bottom Margin: Space between X axis and bottom of the chart container (Pixels)
+
+Left Margin: Space between Y axis and left margin of the chart container (Pixels)
+
+Legend grouping (Horizontal/ Vertical): We can set group of legends to the horizontal or vertical
+
+Legend X Position   Legend position: X Value (0 -1, 0 is Left, 1 is Right)
+
+Legend Y Position   Legend position: Y Value (0 -1, 0 is Top, 1 is Bottom)
+
+Default selected value(s): We can set one or more default selected values
+
+Link Actions: add Linking Actions to Chart tooltip
+
+Link Label: format {"Measure1":"Action Name1","Measure2":"Action Name2"}
+
+Filter Field: We can select any field to apply filter
+
+Filter Value: We can specify filter value    
+
+Top/Bottom -N Filter: Calculation Type: We have 3 types to filter data from Top/Bottom: None, Value and percentage
+
+Filter:N From Top: We have two options Top and Bottom. If we will select Top it will show 20 from the top of table and if we will select Bottom it will show 20 from the Bottom of table
+
+Filter-N: Default N- value: Here we have to pass some numeric value, It will return the number of rows whatever number we have passed.
+
+Top/Bottom -N Filter: N-Values
+   
+Filter By: We can specify any field by which we want to filter the data
+
 *****
 
 Paired Row
