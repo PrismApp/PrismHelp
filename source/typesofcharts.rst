@@ -704,13 +704,14 @@ Filter:N From Top: We have two options Top and Bottom. If we will select Top it 
 Filter-N: Default N- value: Here we have to pass some numeric value, It will return the number of rows whatever number we have passed.
 
 Top/Bottom -N Filter: N-Values
-   
+
 Filter By: We can specify any field by which we want to filter the data
 
 *****
 
 Paired Row
 ^^^^^^^^^^
+
 
 *****
 
@@ -722,10 +723,133 @@ Multi level
 Geo
 ^^^
 
+  .. image:: /images/geochart.png
+
+Chart Title: Name on the chart
+
+Width: Width of the chart
+
+Height: Height of the chart
+
+Map Type: We have 2 types of map here: USA and WORLD
+
+Measure: In Measure we have all the fields available in the table and we can select any one from the drop down for which we want the chart.
+
+Latitude*: Select latitude field from the drop down
+
+Longitude*: Select longitude field from the drop down
+
+Aggregate: We have aggregate function like Sum, Count, AVG, Calculated Field, MIN, MAX, MEDIAN, DISTINCT and RATIO to get measure
+
+Convert to Absolute ?: Convert value of each group the absolute value before plotting
+
+Dimension description: Select field to display name of dimension in tooltip
+
+Bubble Radius Label: We can set bubble radius
+
+Sort Order: To sort the data we have few optiions: None(Data Source Order), Ascending, Alphabetic(A-Z), Alphabetic(Z-A) and Descending. By default None would be selected which has data source order
+
+Number Format: Number Format is, in which format we want to display the number
+
+Bubble Dimension*: Measure which determines bubble radius
+
+Prefix: We can add some prefix
+
+Suffix: We can add some suffix
+
+Color Type: color typr could be of- By Category, Value Range, Single Color and Field. To set any Color type we need to set some color code
+
+Color Codes: Ex: by - Category {"US01":"","US02":"Line","US03":"AVG"},
+
+X Axis Title: We can add some title
+
+Y Axis Title: We can add some title
+
+X Axis Label Orientation: We can set the lables to 0 to 90 degrees
+
+Y Axis Label Orientation: We can set the lables to 0 to 90 degrees
+
+Default selected value(s): We can set one or more default selected values
+
+Link Actions: Linking Actions to Chart tooltip
+
+Top/Bottom -N Filter: Calculation Type: We have 3 types to filter data from Top/Bottom: None, Value and percentage
+
+Filter:N From Top: We have two options Top and Bottom. If we will select Top it will show 20 from the top of table and if we will select Bottom it will show 20 from the Bottom of table
+
+Filter-N: Default N- value: Here we have to pass some numeric value, It will return the number of rows whatever number we have passed.
+
+Top/Bottom -N Filter: N-Values    
+
+Filter By: We can specify any field by which we want to filter the data
+
+
 *****
 
 Google Map
 ^^^^^^^^^^
+
+  .. image:: /images/geomap.png
+
+Chart Title: Name on the chart
+
+Width: Width of the chart
+
+Height: Height of the chart
+
+Measure: In Measure we have all the fields available in the table and we can select any one from the drop down for which we want the chart.
+
+Latitude*: latitude field is compulsary
+
+Longitude*: longitude field is compulsary
+
+Aggregate: We have aggregate function like Sum, Count, AVG, Calculated Field, MIN, MAX, MEDIAN, DISTINCT and RATIO to get measure
+
+X Axis Measure    
+
+Y Axis Measure    
+
+Convert to Absolute ?: Convert value of each group the absolute value before plotting
+
+Dimension description: Select field to display name of dimension in tooltip
+
+Bubble Radius Label:
+
+Show Percentage: Show Percentage in pop up
+
+Bubble Dimension*: Measure which determines bubble radius
+
+Prefix: We can add some prefix
+
+Suffix: We can add some suffix
+
+Color Type: color typr could be of- By Category, Value Range, Single Color and Field. To set any Color type we need to set some color code
+
+Color Codes: Ex: by - Category {"US01":"","US02":"Line","US03":"AVG"},
+
+X Axis Title: We can add some title
+
+Y Axis Title: We can add some title
+
+X Axis Label Orientation: We can set the lables to 0 to 90 degrees
+
+Y Axis Label Orientation: We can set the lables to 0 to 90 degrees
+
+Default selected value(s): We can set one or more default selected values
+
+Filter Field: We can select any field to apply filter
+
+Filter Value: We can specify filter value
+
+Top/Bottom -N Filter: Calculation Type: We have 3 types to filter data from Top/Bottom: None, Value and percentage
+
+Filter:N From: We have two options Top and Bottom. If we will select Top it will show 20 from the top of table and if we will select Bottom it will show 20 from the Bottom of table
+
+Filter-N: Default N- value: Here we have to pass some numeric value, It will return the number of rows whatever number we have passed.
+
+Top/Bottom -N Filter: N-Values
+
+Filter By: We can specify any field by which we want to filter the data
 
 *****
 
